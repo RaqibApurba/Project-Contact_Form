@@ -1,0 +1,168 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+
+.header{
+	background-color: #00134d;
+	font-family: Trebuchet MS;
+	text-align: center;
+	padding:30px 0px 30px 0px;
+}
+   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@{
+	text-decoration:none;
+}
+
+.header ul li{
+	list-style: none;
+	display:inline-block;
+	margin: 0 15px;
+
+}
+
+.header ul li a{
+	color:snow;
+	font-size: 22px;
+
+}
+
+.header ul li a:hover{
+	color: aqua;	
+	font-size: 175%;
+	transition: all 0.25s cubic-bezier(.75,-0.32,.17,1.37);
+
+}
+
+.newsletter{
+	background-color: #f5f5f5;
+	color:black;
+	padding:80px 0px;
+	text-align: center
+}
+
+.container{
+	width: 1140px;
+	margin:auto;
+}
+
+.newsletter h1{
+	font-size:42px;
+	color:#000066;
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.newsletter p{
+font-size: 18px;
+margin-bottom: 40px;
+font-family: 'Poppins', sans-serif;
+color: #00004d;
+}
+
+.input-1{
+    width: 25%;
+    padding: 18px;
+    background-color: transparent;
+    border: 1.75px ridge #000066;
+
+}
+
+.input-2{
+    width: 30%;
+    padding: 18px;
+    background-color: transparent;
+    border: 1.75px ridge #000066;
+}
+
+.input-3{
+    width: 12%;
+    padding: 18px;
+    background-color: #00134d;
+    color:white;
+    border: 1.75px ridge #000066;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.input-3:hover{
+	background-color: slateblue;
+    border: 1px ridge slateblue;
+    cursor: pointer;
+    border-radius: 12.5px;
+    padding: 22px 22px;
+ }
+
+.input-4{
+    width: 32.43%;
+    padding: 18px;
+    background-color: transparent;
+    border: 1.75px ridge #000066;
+  	margin: 0px 14px 16px 0px;
+}
+
+.input-5{
+    width: 32.43%;
+    padding: 18px;
+    background-color: transparent;
+    border: 1.75px ridge #000066;
+    margin: 0px 0px 16px 0px;
+}
+
+.letstalk{
+	background-color: #EEE;
+	color:black;
+	padding:80px 0px;
+	text-align: center;
+}
+
+.letstalk .textarea{
+	width: 70%;
+	background-color: transparent;
+    border: 1.75px ridge #000066;
+    margin: 0px 0px 15px 0px;
+    padding: 18px;
+
+}
+
+.letstalk h1{
+	font-size:42px;
+	color:#000066;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-family: Georgia, serif;
+}
+
+.letstalk p{
+font-size: 18px;
+margin-bottom: 40px;
+font-family: 'Poppins', sans-serif;
+color: #00004d;
+}
+
+.sendMessage{
+    width: 12%;
+    padding: 18px;
+    background-color: #00134d;
+    color:white;
+    border: 1px ridge #00134d;
+    display: block;
+    margin: 0px 0px 0px 152px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.sendMessage:hover{
+	background-color: slateblue;
+    border: 1px ridge slateblue;
+    cursor: pointer;
+    border-radius: 12.5px;
+    padding: 22px 22px;
+ }
+
+ ::placeholder {
+  color: #666666;
+  font-size: 18px;
+  font-family: georgia, sen-serif;
+}
